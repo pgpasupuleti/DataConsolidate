@@ -1,0 +1,1046 @@
+2015-03-24 07:24:50 DCBootStrap [INFO] DC11001: Data base connection failed. Reason: sample error.
+2015-03-24 09:19:26 DCBootStrap [INFO] DC11001: Data base connection failed. Reason: sample error.
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:00:23 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1dc80063: startup date [Tue Mar 24 12:00:23 IST 2015]; root of context hierarchy
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:00:23 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:00:24 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [META-INF/spring/applicationContext.xml]
+2015-03-24 12:00:24 DefaultDocumentLoader [DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2015-03-24 12:00:24 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2015-03-24 12:00:24 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd]
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2015-03-24 12:00:24 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd]
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2015-03-24 12:00:24 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd]
+2015-03-24 12:00:24 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+2015-03-24 12:00:24 DefaultBeanDefinitionDocumentReader [DEBUG] Loading bean definitions
+2015-03-24 12:00:24 DefaultNamespaceHandlerResolver [DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2015-03-24 12:00:24 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:00:24 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:00:24 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:00:24 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:00:24 PathMatchingResourcePatternResolver [DEBUG] Resolved location pattern [classpath*:com/dba/ih/dce/engine/**/*.class] to resources []
+2015-03-24 12:00:24 XmlBeanDefinitionReader [DEBUG] Loaded 11 bean definitions from location pattern [classpath:META-INF/spring/applicationContext.xml]
+2015-03-24 12:00:24 ClassPathXmlApplicationContext [DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@1dc80063: org.springframework.beans.factory.support.DefaultListableBeanFactory@6b3a210: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'exposeProxy' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'frozen' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'opaque' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'optimize' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'order' of type [int]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'proxyTargetClass' of type [boolean]
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:00:24 ClassPathXmlApplicationContext [DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1ac80699]
+2015-03-24 12:00:24 ClassPathXmlApplicationContext [DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@d29e956]
+2015-03-24 12:00:24 DefaultListableBeanFactory [INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b3a210: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'transactionManager'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'defaultTimeout' of type [int]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'nestedTransactionAllowed' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'resourceFactory' of type [java.lang.Object]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronization' of type [int]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'validateExistingTransaction' of type [boolean]
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'hibernateSessionFactory'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'hibernateSessionFactory'
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'hibernateSessionFactory' to allow for resolving potential circular references
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'beanName' of type [java.lang.String]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactoryInterface' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerInterface' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'jpaVendorAdapter' of type [org.springframework.orm.jpa.JpaVendorAdapter]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'loadTimeWeaver' of type [org.springframework.instrument.classloading.LoadTimeWeaver]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'nativeEntityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'objectType' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProvider' of type [javax.persistence.spi.PersistenceProvider]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProviderClass' of type [java.lang.Class]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitInfo' of type [javax.persistence.spi.PersistenceUnitInfo]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitManager' of type [org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitPostProcessors' of type [[Lorg.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor;]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'persistenceXmlLocation' of type [java.lang.String]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+2015-03-24 12:00:24 CachedIntrospectionResults [TRACE] Found bean property 'singleton' of type [boolean]
+2015-03-24 12:00:24 DefaultListableBeanFactory [DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateSessionFactory'
+2015-03-24 12:00:24 LocalContainerEntityManagerFactoryBean [INFO] Building JPA container EntityManagerFactory for persistence unit 'DCE'
+2015-03-24 12:00:24 Version [INFO] Hibernate Annotations 3.5.6-Final
+2015-03-24 12:00:24 Environment [INFO] Hibernate 3.5.6-Final
+2015-03-24 12:00:24 Environment [INFO] hibernate.properties not found
+2015-03-24 12:00:24 Environment [INFO] Bytecode provider name : javassist
+2015-03-24 12:00:24 Environment [INFO] using JDK 1.4 java.sql.Timestamp handling
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:00:24 Version [INFO] Hibernate Commons Annotations 3.2.0.Final
+2015-03-24 12:00:24 Version [INFO] Hibernate EntityManager 3.5.6-Final
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:00:24 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:00:24 Ejb3Configuration [DEBUG] Processing PersistenceUnitInfo [
+	name: DCE
+	persistence provider classname: org.hibernate.ejb.HibernatePersistence
+	classloader: sun.misc.Launcher$AppClassLoader@734d246
+	Temporary classloader: org.springframework.instrument.classloading.SimpleThrowawayClassLoader@3eafdce
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.steve.dataconsolidate.entity.User]
+	Mapping files names []
+	Properties [
+		hibernate.use_sql_comments: false
+		hibernate.connection.driver_class: oracle.jdbc.driver.OrcleDriver
+		hibernate.dialect: com.mysema.query.jpa.support.ExtendedOracleDialect
+		hibernate.format_sql: false
+		hibernate.connection.username: dce
+		hibernate.hbm2ddl.auto: update
+		hibernate.connection.url: jdbc:oracle:thin:@mcm-dev-oracle-db:1521:xe
+		hibernate.connection.password: dce
+		hibernate.show_sql: false]
+2015-03-24 12:00:24 Ejb3Configuration [DEBUG] Detect class: true; detect hbm: true
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Searching mapped entities in jar/par: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCContants
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCNoticeCodeBase
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.DCBootStrap
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Java element filter matched for com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.exceptions.DCException
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDao
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDaoImpl
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.GenericEntityService
+2015-03-24 12:00:24 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.impl.GenericEntityServiceImpl
+2015-03-24 12:00:24 DefaultListableBeanFactory [INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6b3a210: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:00:24 DCBootStrap [INFO] Error creating bean with name 'transactionManager' defined in class path resource [META-INF/spring/applicationContext.xml]: Cannot resolve reference to bean 'hibernateSessionFactory' while setting bean property 'entityManagerFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [META-INF/spring/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: DCE] class or package not found
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:02:50 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b17ad7b: startup date [Tue Mar 24 12:02:50 IST 2015]; root of context hierarchy
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:02:50 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [META-INF/spring/applicationContext.xml]
+2015-03-24 12:02:50 DefaultDocumentLoader [DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2015-03-24 12:02:50 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2015-03-24 12:02:50 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd]
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2015-03-24 12:02:50 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd]
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2015-03-24 12:02:50 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd]
+2015-03-24 12:02:50 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+2015-03-24 12:02:50 DefaultBeanDefinitionDocumentReader [DEBUG] Loading bean definitions
+2015-03-24 12:02:50 DefaultNamespaceHandlerResolver [DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:02:50 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:02:50 PathMatchingResourcePatternResolver [DEBUG] Resolved location pattern [classpath*:com/dba/ih/dce/engine/**/*.class] to resources []
+2015-03-24 12:02:50 XmlBeanDefinitionReader [DEBUG] Loaded 11 bean definitions from location pattern [classpath:META-INF/spring/applicationContext.xml]
+2015-03-24 12:02:50 ClassPathXmlApplicationContext [DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@7b17ad7b: org.springframework.beans.factory.support.DefaultListableBeanFactory@1609a8a2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'exposeProxy' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'frozen' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'opaque' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'optimize' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'order' of type [int]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'proxyTargetClass' of type [boolean]
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:02:50 ClassPathXmlApplicationContext [DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7a13f4c]
+2015-03-24 12:02:50 ClassPathXmlApplicationContext [DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3f90d589]
+2015-03-24 12:02:50 DefaultListableBeanFactory [INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1609a8a2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'transactionManager'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'defaultTimeout' of type [int]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'nestedTransactionAllowed' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'resourceFactory' of type [java.lang.Object]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronization' of type [int]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'validateExistingTransaction' of type [boolean]
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'hibernateSessionFactory'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'hibernateSessionFactory'
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'hibernateSessionFactory' to allow for resolving potential circular references
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'beanName' of type [java.lang.String]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactoryInterface' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerInterface' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'jpaVendorAdapter' of type [org.springframework.orm.jpa.JpaVendorAdapter]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'loadTimeWeaver' of type [org.springframework.instrument.classloading.LoadTimeWeaver]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'nativeEntityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'objectType' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProvider' of type [javax.persistence.spi.PersistenceProvider]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProviderClass' of type [java.lang.Class]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitInfo' of type [javax.persistence.spi.PersistenceUnitInfo]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitManager' of type [org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitPostProcessors' of type [[Lorg.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor;]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'persistenceXmlLocation' of type [java.lang.String]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+2015-03-24 12:02:50 CachedIntrospectionResults [TRACE] Found bean property 'singleton' of type [boolean]
+2015-03-24 12:02:50 DefaultListableBeanFactory [DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateSessionFactory'
+2015-03-24 12:02:50 LocalContainerEntityManagerFactoryBean [INFO] Building JPA container EntityManagerFactory for persistence unit 'DCE'
+2015-03-24 12:02:51 Version [INFO] Hibernate Annotations 3.5.6-Final
+2015-03-24 12:02:51 Environment [INFO] Hibernate 3.5.6-Final
+2015-03-24 12:02:51 Environment [INFO] hibernate.properties not found
+2015-03-24 12:02:51 Environment [INFO] Bytecode provider name : javassist
+2015-03-24 12:02:51 Environment [INFO] using JDK 1.4 java.sql.Timestamp handling
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:02:51 Version [INFO] Hibernate Commons Annotations 3.2.0.Final
+2015-03-24 12:02:51 Version [INFO] Hibernate EntityManager 3.5.6-Final
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:02:51 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:02:51 Ejb3Configuration [DEBUG] Processing PersistenceUnitInfo [
+	name: DCE
+	persistence provider classname: org.hibernate.ejb.HibernatePersistence
+	classloader: sun.misc.Launcher$AppClassLoader@1fe91485
+	Temporary classloader: org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6608c769
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.steve.dataconsolidate.entity.UserEntity]
+	Mapping files names []
+	Properties [
+		hibernate.use_sql_comments: false
+		hibernate.connection.driver_class: oracle.jdbc.driver.OrcleDriver
+		hibernate.dialect: com.mysema.query.jpa.support.ExtendedOracleDialect
+		hibernate.format_sql: false
+		hibernate.connection.username: dce
+		hibernate.hbm2ddl.auto: update
+		hibernate.connection.url: jdbc:oracle:thin:@mcm-dev-oracle-db:1521:xe
+		hibernate.connection.password: dce
+		hibernate.show_sql: false]
+2015-03-24 12:02:51 Ejb3Configuration [DEBUG] Detect class: true; detect hbm: true
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Searching mapped entities in jar/par: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCContants
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCNoticeCodeBase
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.DCBootStrap
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Java element filter matched for com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.exceptions.DCException
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDao
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDaoImpl
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.GenericEntityService
+2015-03-24 12:02:51 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.impl.GenericEntityServiceImpl
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Execute first pass mapping processing
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Process hbm files
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Process annotated classes
+2015-03-24 12:02:51 AnnotationBinder [INFO] Binding entity from annotated class: com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2015-03-24 12:02:51 EntityBinder [DEBUG] Import with entity name UserEntity
+2015-03-24 12:02:51 EntityBinder [INFO] Bind entity com.steve.dataconsolidate.entity.UserEntity on table USER
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.userId
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=USER_ID, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property userId with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for userId
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property userId
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading userId with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Bind @Id on userId
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.creationDate
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=creation_date, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property creationDate with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for creationDate
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property creationDate
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading creationDate with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.email
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property email with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for email
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property email
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading email with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.firstName
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property firstName with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for firstName
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property firstName
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading firstName with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.lastName
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property lastName with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for lastName
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property lastName
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading lastName with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.lastUpdateDate
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=last_update_date, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property lastUpdateDate with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for lastUpdateDate
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property lastUpdateDate
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading lastUpdateDate with null
+2015-03-24 12:02:51 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.personKey
+2015-03-24 12:02:51 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=person_key, insertable=true, updatable=true, unique=false}
+2015-03-24 12:02:51 PropertyBinder [DEBUG] binding property personKey with lazy=false
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] building SimpleValue for personKey
+2015-03-24 12:02:51 PropertyBinder [DEBUG] Building property personKey
+2015-03-24 12:02:51 PropertyBinder [TRACE] Cascading personKey with null
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for userId
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for creationDate
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for email
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for firstName
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for lastName
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for lastUpdateDate
+2015-03-24 12:02:51 SimpleValueBinder [DEBUG] setting SimpleValue typeName for personKey
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] processing fk mappings (*ToOne and JoinedSubclass)
+2015-03-24 12:02:51 Configuration [DEBUG] processing extends queue
+2015-03-24 12:02:51 Configuration [DEBUG] processing collection mappings
+2015-03-24 12:02:51 Configuration [DEBUG] processing native query and ResultSetMapping mappings
+2015-03-24 12:02:51 Configuration [DEBUG] processing association property references
+2015-03-24 12:02:51 Configuration [DEBUG] processing foreign key constraints
+2015-03-24 12:02:51 AnnotationConfiguration [INFO] Hibernate Validator not found: ignoring
+2015-03-24 12:02:51 NamingHelper [DEBUG] No JNDI name configured for binding Ejb3Configuration
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Legacy Validator not present in classpath, ignoring event listener registration
+2015-03-24 12:02:51 HibernateSearchEventListenerRegister [DEBUG] Search not present in classpath, ignoring event listener registration.
+2015-03-24 12:02:51 HibernateSearchEventListenerRegister [INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-24 12:02:51 Configuration [DEBUG] Preparing to build session factory with filters : {}
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Execute first pass mapping processing
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Process hbm files
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] Process annotated classes
+2015-03-24 12:02:51 AnnotationConfiguration [DEBUG] processing fk mappings (*ToOne and JoinedSubclass)
+2015-03-24 12:02:51 Configuration [DEBUG] processing extends queue
+2015-03-24 12:02:51 Configuration [DEBUG] processing collection mappings
+2015-03-24 12:02:51 Configuration [DEBUG] processing native query and ResultSetMapping mappings
+2015-03-24 12:02:51 Configuration [DEBUG] processing association property references
+2015-03-24 12:02:51 Configuration [DEBUG] processing foreign key constraints
+2015-03-24 12:02:51 DriverManagerConnectionProvider [INFO] Using Hibernate built-in connection pool (not for production use!)
+2015-03-24 12:02:51 DriverManagerConnectionProvider [INFO] Hibernate connection pool size: 20
+2015-03-24 12:02:51 DriverManagerConnectionProvider [INFO] autocommit mode: true
+2015-03-24 12:02:51 DriverManagerConnectionProvider [ERROR] JDBC Driver class not found: oracle.jdbc.driver.OrcleDriver
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OrcleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:143)
+	at org.hibernate.ejb.InjectionSettingsFactory.createConnectionProvider(InjectionSettingsFactory.java:51)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:91)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2163)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2159)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1383)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:954)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:892)
+	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:74)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:268)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:310)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:585)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:913)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.steve.dataconsolidate.DCBootStrap.main(DCBootStrap.java:31)
+2015-03-24 12:02:51 DefaultListableBeanFactory [INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1609a8a2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:02:51 DCBootStrap [INFO] Error creating bean with name 'transactionManager' defined in class path resource [META-INF/spring/applicationContext.xml]: Cannot resolve reference to bean 'hibernateSessionFactory' while setting bean property 'entityManagerFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [META-INF/spring/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: DCE] Unable to build EntityManagerFactory
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:18:00 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11286929: startup date [Tue Mar 24 12:18:00 IST 2015]; root of context hierarchy
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:18:00 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [META-INF/spring/applicationContext.xml]
+2015-03-24 12:18:00 DefaultDocumentLoader [DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2015-03-24 12:18:00 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2015-03-24 12:18:00 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd]
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2015-03-24 12:18:00 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd]
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2015-03-24 12:18:00 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd]
+2015-03-24 12:18:00 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+2015-03-24 12:18:00 DefaultBeanDefinitionDocumentReader [DEBUG] Loading bean definitions
+2015-03-24 12:18:00 DefaultNamespaceHandlerResolver [DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:18:00 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:18:00 PathMatchingResourcePatternResolver [DEBUG] Resolved location pattern [classpath*:com/dba/ih/dce/engine/**/*.class] to resources []
+2015-03-24 12:18:00 XmlBeanDefinitionReader [DEBUG] Loaded 11 bean definitions from location pattern [classpath:META-INF/spring/applicationContext.xml]
+2015-03-24 12:18:00 ClassPathXmlApplicationContext [DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@11286929: org.springframework.beans.factory.support.DefaultListableBeanFactory@73332124: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'exposeProxy' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'frozen' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'opaque' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'optimize' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'order' of type [int]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'proxyTargetClass' of type [boolean]
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:18:00 ClassPathXmlApplicationContext [DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@75be18e2]
+2015-03-24 12:18:00 ClassPathXmlApplicationContext [DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@35480096]
+2015-03-24 12:18:00 DefaultListableBeanFactory [INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73332124: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'transactionManager'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'defaultTimeout' of type [int]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'nestedTransactionAllowed' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'resourceFactory' of type [java.lang.Object]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronization' of type [int]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'validateExistingTransaction' of type [boolean]
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'hibernateSessionFactory'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'hibernateSessionFactory'
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'hibernateSessionFactory' to allow for resolving potential circular references
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'beanName' of type [java.lang.String]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactoryInterface' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerInterface' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'jpaVendorAdapter' of type [org.springframework.orm.jpa.JpaVendorAdapter]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'loadTimeWeaver' of type [org.springframework.instrument.classloading.LoadTimeWeaver]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'nativeEntityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'objectType' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProvider' of type [javax.persistence.spi.PersistenceProvider]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProviderClass' of type [java.lang.Class]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitInfo' of type [javax.persistence.spi.PersistenceUnitInfo]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitManager' of type [org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitPostProcessors' of type [[Lorg.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor;]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'persistenceXmlLocation' of type [java.lang.String]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+2015-03-24 12:18:00 CachedIntrospectionResults [TRACE] Found bean property 'singleton' of type [boolean]
+2015-03-24 12:18:00 DefaultListableBeanFactory [DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateSessionFactory'
+2015-03-24 12:18:00 DefaultListableBeanFactory [INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73332124: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:18:00 DCBootStrap [INFO] Error creating bean with name 'transactionManager' defined in class path resource [META-INF/spring/applicationContext.xml]: Cannot resolve reference to bean 'hibernateSessionFactory' while setting bean property 'entityManagerFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [META-INF/spring/applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Conflicting persistence unit definitions for name 'DCE': file:/Users/paspr01/Praveen/projects/Steve/target/DataConsolidate-0.0.1-SNAPSHOT.jar, file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:19:43 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4f7ea55f: startup date [Tue Mar 24 12:19:43 IST 2015]; root of context hierarchy
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:19:43 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [META-INF/spring/applicationContext.xml]
+2015-03-24 12:19:43 DefaultDocumentLoader [DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2015-03-24 12:19:43 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd]
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2015-03-24 12:19:43 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context-3.0.xsd]
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2015-03-24 12:19:43 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd]
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2015-03-24 12:19:43 PluggableSchemaResolver [TRACE] Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd]
+2015-03-24 12:19:43 PluggableSchemaResolver [DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+2015-03-24 12:19:43 DefaultBeanDefinitionDocumentReader [DEBUG] Loading bean definitions
+2015-03-24 12:19:43 DefaultNamespaceHandlerResolver [DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initializing new StandardEnvironment
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2015-03-24 12:19:43 StandardEnvironment [DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2015-03-24 12:19:43 PathMatchingResourcePatternResolver [DEBUG] Resolved location pattern [classpath*:com/dba/ih/dce/engine/**/*.class] to resources []
+2015-03-24 12:19:43 XmlBeanDefinitionReader [DEBUG] Loaded 11 bean definitions from location pattern [classpath:META-INF/spring/applicationContext.xml]
+2015-03-24 12:19:43 ClassPathXmlApplicationContext [DEBUG] Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@4f7ea55f: org.springframework.beans.factory.support.DefaultListableBeanFactory@99e8be2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'exposeProxy' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'frozen' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'opaque' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'optimize' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'order' of type [int]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'proxyTargetClass' of type [boolean]
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2015-03-24 12:19:43 ClassPathXmlApplicationContext [DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@61acbb8e]
+2015-03-24 12:19:43 ClassPathXmlApplicationContext [DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@409c8e14]
+2015-03-24 12:19:43 DefaultListableBeanFactory [INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@99e8be2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'transactionManager'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'transactionManager'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.JpaTransactionManager]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'defaultTimeout' of type [int]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'failEarlyOnGlobalRollbackOnly' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'globalRollbackOnParticipationFailure' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'nestedTransactionAllowed' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'resourceFactory' of type [java.lang.Object]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'rollbackOnCommitFailure' of type [boolean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronization' of type [int]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'transactionSynchronizationName' of type [java.lang.String]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'validateExistingTransaction' of type [boolean]
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating shared instance of singleton bean 'hibernateSessionFactory'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Creating instance of bean 'hibernateSessionFactory'
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Eagerly caching bean 'hibernateSessionFactory' to allow for resolving potential circular references
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Getting BeanInfo for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Caching PropertyDescriptors for class [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'beanName' of type [java.lang.String]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'class' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'dataSource' of type [javax.sql.DataSource]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerFactoryInterface' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'entityManagerInterface' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaDialect' of type [org.springframework.orm.jpa.JpaDialect]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaProperties' of type [java.util.Properties]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaPropertyMap' of type [java.util.Map]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'jpaVendorAdapter' of type [org.springframework.orm.jpa.JpaVendorAdapter]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'loadTimeWeaver' of type [org.springframework.instrument.classloading.LoadTimeWeaver]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'mappingResources' of type [[Ljava.lang.String;]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'nativeEntityManagerFactory' of type [javax.persistence.EntityManagerFactory]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'objectType' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProvider' of type [javax.persistence.spi.PersistenceProvider]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceProviderClass' of type [java.lang.Class]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitInfo' of type [javax.persistence.spi.PersistenceUnitInfo]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitManager' of type [org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitName' of type [java.lang.String]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceUnitPostProcessors' of type [[Lorg.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor;]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'persistenceXmlLocation' of type [java.lang.String]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+2015-03-24 12:19:43 CachedIntrospectionResults [TRACE] Found bean property 'singleton' of type [boolean]
+2015-03-24 12:19:43 DefaultListableBeanFactory [DEBUG] Invoking afterPropertiesSet() on bean with name 'hibernateSessionFactory'
+2015-03-24 12:19:43 LocalContainerEntityManagerFactoryBean [INFO] Building JPA container EntityManagerFactory for persistence unit 'DCE'
+2015-03-24 12:19:43 Version [INFO] Hibernate Annotations 3.5.6-Final
+2015-03-24 12:19:43 Environment [INFO] Hibernate 3.5.6-Final
+2015-03-24 12:19:43 Environment [INFO] hibernate.properties not found
+2015-03-24 12:19:43 Environment [INFO] Bytecode provider name : javassist
+2015-03-24 12:19:43 Environment [INFO] using JDK 1.4 java.sql.Timestamp handling
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:19:43 Version [INFO] Hibernate Commons Annotations 3.2.0.Final
+2015-03-24 12:19:43 Version [INFO] Hibernate EntityManager 3.5.6-Final
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+2015-03-24 12:19:43 DefaultIdentifierGeneratorFactory [DEBUG] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+2015-03-24 12:19:43 Ejb3Configuration [DEBUG] Processing PersistenceUnitInfo [
+	name: DCE
+	persistence provider classname: org.hibernate.ejb.HibernatePersistence
+	classloader: sun.misc.Launcher$AppClassLoader@1fe91485
+	Temporary classloader: org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5aa3626f
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.steve.dataconsolidate.entity.UserEntity]
+	Mapping files names []
+	Properties [
+		hibernate.use_sql_comments: false
+		hibernate.connection.driver_class: oracle.jdbc.driver.OrcleDriver
+		hibernate.dialect: com.mysema.query.jpa.support.ExtendedOracleDialect
+		hibernate.format_sql: false
+		hibernate.connection.username: dce
+		hibernate.hbm2ddl.auto: update
+		hibernate.connection.url: jdbc:oracle:thin:@mcm-dev-oracle-db:1521:xe
+		hibernate.connection.password: dce
+		hibernate.show_sql: false]
+2015-03-24 12:19:43 Ejb3Configuration [DEBUG] Detect class: true; detect hbm: true
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Searching mapped entities in jar/par: file:/Users/paspr01/Praveen/projects/Steve/target/classes/
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCContants
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.common.DCNoticeCodeBase
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.DCBootStrap
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Java element filter matched for com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.exceptions.DCException
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDao
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.persist.GenericDaoImpl
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.GenericEntityService
+2015-03-24 12:19:43 AbstractJarVisitor [DEBUG] Filtering: com.steve.dataconsolidate.services.impl.GenericEntityServiceImpl
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Execute first pass mapping processing
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Process hbm files
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Process annotated classes
+2015-03-24 12:19:43 AnnotationBinder [INFO] Binding entity from annotated class: com.steve.dataconsolidate.entity.UserEntity
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2015-03-24 12:19:43 EntityBinder [DEBUG] Import with entity name UserEntity
+2015-03-24 12:19:43 EntityBinder [INFO] Bind entity com.steve.dataconsolidate.entity.UserEntity on table USER
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.userId
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=USER_ID, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property userId with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for userId
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property userId
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading userId with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Bind @Id on userId
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.creationDate
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=creation_date, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property creationDate with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for creationDate
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property creationDate
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading creationDate with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.email
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property email with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for email
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property email
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading email with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.firstName
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property firstName with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for firstName
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property firstName
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading firstName with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.lastName
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property lastName with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for lastName
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property lastName
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading lastName with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.lastUpdateDate
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=last_update_date, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property lastUpdateDate with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for lastUpdateDate
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property lastUpdateDate
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading lastUpdateDate with null
+2015-03-24 12:19:43 AnnotationBinder [TRACE] Processing annotations of com.steve.dataconsolidate.entity.UserEntity.personKey
+2015-03-24 12:19:43 Ejb3Column [DEBUG] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(USER), mappingColumn=person_key, insertable=true, updatable=true, unique=false}
+2015-03-24 12:19:43 PropertyBinder [DEBUG] binding property personKey with lazy=false
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] building SimpleValue for personKey
+2015-03-24 12:19:43 PropertyBinder [DEBUG] Building property personKey
+2015-03-24 12:19:43 PropertyBinder [TRACE] Cascading personKey with null
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for userId
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for creationDate
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for email
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for firstName
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for lastName
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for lastUpdateDate
+2015-03-24 12:19:43 SimpleValueBinder [DEBUG] setting SimpleValue typeName for personKey
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] processing fk mappings (*ToOne and JoinedSubclass)
+2015-03-24 12:19:43 Configuration [DEBUG] processing extends queue
+2015-03-24 12:19:43 Configuration [DEBUG] processing collection mappings
+2015-03-24 12:19:43 Configuration [DEBUG] processing native query and ResultSetMapping mappings
+2015-03-24 12:19:43 Configuration [DEBUG] processing association property references
+2015-03-24 12:19:43 Configuration [DEBUG] processing foreign key constraints
+2015-03-24 12:19:43 AnnotationConfiguration [INFO] Hibernate Validator not found: ignoring
+2015-03-24 12:19:43 NamingHelper [DEBUG] No JNDI name configured for binding Ejb3Configuration
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Legacy Validator not present in classpath, ignoring event listener registration
+2015-03-24 12:19:43 HibernateSearchEventListenerRegister [DEBUG] Search not present in classpath, ignoring event listener registration.
+2015-03-24 12:19:43 HibernateSearchEventListenerRegister [INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2015-03-24 12:19:43 Configuration [DEBUG] Preparing to build session factory with filters : {}
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Execute first pass mapping processing
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Process hbm files
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] Process annotated classes
+2015-03-24 12:19:43 AnnotationConfiguration [DEBUG] processing fk mappings (*ToOne and JoinedSubclass)
+2015-03-24 12:19:43 Configuration [DEBUG] processing extends queue
+2015-03-24 12:19:43 Configuration [DEBUG] processing collection mappings
+2015-03-24 12:19:43 Configuration [DEBUG] processing native query and ResultSetMapping mappings
+2015-03-24 12:19:43 Configuration [DEBUG] processing association property references
+2015-03-24 12:19:43 Configuration [DEBUG] processing foreign key constraints
+2015-03-24 12:19:43 DriverManagerConnectionProvider [INFO] Using Hibernate built-in connection pool (not for production use!)
+2015-03-24 12:19:43 DriverManagerConnectionProvider [INFO] Hibernate connection pool size: 20
+2015-03-24 12:19:43 DriverManagerConnectionProvider [INFO] autocommit mode: true
+2015-03-24 12:19:43 DriverManagerConnectionProvider [ERROR] JDBC Driver class not found: oracle.jdbc.driver.OrcleDriver
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OrcleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:143)
+	at org.hibernate.ejb.InjectionSettingsFactory.createConnectionProvider(InjectionSettingsFactory.java:51)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:91)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2163)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2159)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1383)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:954)
+	at org.hibernate.ejb.Ejb3Configuration.buildEntityManagerFactory(Ejb3Configuration.java:892)
+	at org.hibernate.ejb.HibernatePersistence.createContainerEntityManagerFactory(HibernatePersistence.java:74)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:268)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:310)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:585)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:913)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.steve.dataconsolidate.DCBootStrap.main(DCBootStrap.java:31)
+2015-03-24 12:19:43 DefaultListableBeanFactory [INFO] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@99e8be2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,transactionManager,hibernateSessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2015-03-24 12:19:43 DCBootStrap [INFO] Error creating bean with name 'transactionManager' defined in class path resource [META-INF/spring/applicationContext.xml]: Cannot resolve reference to bean 'hibernateSessionFactory' while setting bean property 'entityManagerFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [META-INF/spring/applicationContext.xml]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: DCE] Unable to build EntityManagerFactory
