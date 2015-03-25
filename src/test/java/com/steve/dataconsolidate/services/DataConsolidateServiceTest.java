@@ -29,7 +29,7 @@ public class DataConsolidateServiceTest {
 	
 	@Before
 	public void setUp(){
-		String[] path = {"classpath*:META-INF/spring/applicationContext.xml"};
+		String[] path = {"classpath*:META-INF/spring/applicationContext-test.xml"};
 		ApplicationContext applicaitonContext = new ClassPathXmlApplicationContext(path);
 		genericEntityService = applicaitonContext.getBean(GenericEntityService.class);
 		dataConsolidateService = applicaitonContext.getBean(DataConsolidateService.class);
