@@ -11,7 +11,7 @@ import com.steve.dataconsolidate.beans.InputDataBean;
 import com.steve.dataconsolidate.entity.CourseEntity;
 import com.steve.dataconsolidate.entity.UserCourseEntity;
 import com.steve.dataconsolidate.entity.UserEntity;
-import com.steve.dataconsolidate.services.DataConsolidationService;
+import com.steve.dataconsolidate.services.DataConsolidateService;
 import com.steve.dataconsolidate.services.GenericEntityService;
 
 /**
@@ -26,16 +26,14 @@ public class DCBootStrap {
 	private static GenericEntityService genericEntityService;
 	
 	@Autowired
-	private static DataConsolidationService dataConsolidateService;
+	private static DataConsolidateService dataConsolidateService;
 	
 	public static void main(String[] args) {
 		try {
-			//getError();
-			
 			String[] path = {"classpath*:META-INF/spring/applicationContext.xml"};
 			ApplicationContext applicaitonContext = new ClassPathXmlApplicationContext(path);
 			genericEntityService = applicaitonContext.getBean(GenericEntityService.class);
-			dataConsolidateService = applicaitonContext.getBean(DataConsolidationService.class);
+			dataConsolidateService = applicaitonContext.getBean(DataConsolidateService.class);
 			
 			
 			dataConsolidateService.readProcessAndStoreData(getInputDataBean());

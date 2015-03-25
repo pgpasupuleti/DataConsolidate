@@ -10,7 +10,7 @@ import com.steve.dataconsolidate.beans.InputDataBean;
 import com.steve.dataconsolidate.beans.UserBean;
 import com.steve.dataconsolidate.common.DCNoticeCodeBase;
 import com.steve.dataconsolidate.exceptions.DCException;
-import com.steve.dataconsolidate.services.DataConsolidationService;
+import com.steve.dataconsolidate.services.DataConsolidateService;
 import com.steve.dataconsolidate.services.GenericEntityService;
 import com.steve.dataconsolidate.utils.DataExtractUtil;
 
@@ -19,7 +19,7 @@ import com.steve.dataconsolidate.utils.DataExtractUtil;
  *
  */
 @Service("dataConsolidateService")
-public class DataConsolidateServiceImpl implements DataConsolidationService {
+public class DataConsolidateServiceImpl implements DataConsolidateService {
 
 	private Logger log = Logger.getLogger(DataConsolidateServiceImpl.class);
 	
@@ -49,6 +49,7 @@ public class DataConsolidateServiceImpl implements DataConsolidationService {
 	}
 	//-------------HELPERS--------------
 	private boolean isValidData(InputDataBean inputDataBean) throws DCException {
+		//FIXME: Add validations for the input file.
 		return true;
 	}
 }

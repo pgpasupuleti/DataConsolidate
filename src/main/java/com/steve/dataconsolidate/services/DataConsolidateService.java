@@ -7,7 +7,7 @@ import com.steve.dataconsolidate.exceptions.DCException;
  * @author Praveen Kumar Pasupuleti
  *
  */
-public interface DataConsolidationService {
+public interface DataConsolidateService {
 	
 	/**
 	 * @param inputDataBean
