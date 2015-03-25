@@ -28,7 +28,6 @@ public class DataExtractUtil {
 		List<UserBean> userBeans = null;
 		String inputFilePath = inputDataBean.getDataFilePath();
 		CSVReader csvReader = null;
-		
 		try {
 			csvReader = new CSVReader(new FileReader(inputFilePath));
 			List<String[]> rows = csvReader.readAll();

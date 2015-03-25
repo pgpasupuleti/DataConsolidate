@@ -184,6 +184,11 @@
 			<artifactId>hibernate-annotations</artifactId>
 			<version>3.5.6-Final</version>
 		</dependency>
+		 <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+            <version>3.6.8.Final</version>
+        </dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -198,12 +203,9 @@
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.7.3</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-data-jpa</artifactId>
-			<version>${spring.framework.version}</version>
-		</dependency> -->
-		<!--  MySQl -->
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-data-jpa</artifactId> 
+			<version>${spring.framework.version}</version> </dependency> -->
+		<!-- MySQl -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -219,9 +221,9 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/resources/ojdbc6-11.2.0.3.jar</systemPath>
 		</dependency>
-		
-		<!--  CSV Reader -->
-		
+
+		<!-- CSV Reader -->
+
 		<dependency>
 			<groupId>net.sf.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
@@ -232,10 +234,16 @@
 			<artifactId>super-csv</artifactId>
 			<version>2.1.0</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>c3p0</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.1.2</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 	<build>
-	<resources>
+		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>

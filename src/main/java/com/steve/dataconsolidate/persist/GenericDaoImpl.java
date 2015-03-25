@@ -10,6 +10,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.steve.dataconsolidate.common.DCContants;
 import com.steve.dataconsolidate.common.DCNoticeCodeBase;
@@ -21,6 +23,7 @@ import com.steve.dataconsolidate.exceptions.DCException;
  */
 @SuppressWarnings("rawtypes")
 @Repository("genericDao")
+@Transactional(propagation=Propagation.REQUIRED)
 public class GenericDaoImpl<T, PK> implements GenericDao {
 
 	private static EntityManagerFactory entityManagerFactory = null;
