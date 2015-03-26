@@ -1,5 +1,6 @@
 package com.steve.dataconsolidate;
 
+import java.io.File;
 import java.util.Calendar;
 
 import org.apache.log4j.Logger;
@@ -8,6 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.steve.dataconsolidate.beans.InputDataBean;
+import com.steve.dataconsolidate.common.DCConfig;
 import com.steve.dataconsolidate.entity.CourseEntity;
 import com.steve.dataconsolidate.entity.UserCourseEntity;
 import com.steve.dataconsolidate.entity.UserEntity;
@@ -28,13 +30,16 @@ public class DCBootStrap {
 	@Autowired
 	private static DataConsolidateService dataConsolidateService;
 	
+	@Autowired
+	private static DCConfig dcConfig;
+	
 	public static void main(String[] args) {
 		try {
 			String[] path = {"classpath*:META-INF/spring/applicationContext.xml"};
-			ApplicationContext applicaitonContext = new ClassPathXmlApplicationContext(path);
-			genericEntityService = applicaitonContext.getBean(GenericEntityService.class);
-			dataConsolidateService = applicaitonContext.getBean(DataConsolidateService.class);
-			
+			ApplicationContext applicationContext = new ClassPathXmlApplicationContext(path);
+			genericEntityService = applicationContext.getBean(GenericEntityService.class);
+			dataConsolidateService = applicationContext.getBean(DataConsolidateService.class);
+			dcConfig = applicationContext.getBean(DCConfig.class);
 			
 			dataConsolidateService.readProcessAndStoreData(getInputDataBean());
 			
@@ -56,7 +61,8 @@ public class DCBootStrap {
 	
 	private static InputDataBean getInputDataBean(){
 		InputDataBean inputDataBean = new InputDataBean();
-		inputDataBean.setDataFilePath("/Users/paspr01/Praveen/projects/Steve/src/main/resources/dataFile.txt");
+		String inputDataDirPath = dcConfig.getInputDataDirPath();
+		inputDataBean.setDataFilePath(inputDataDirPath + File.separator + "dataFile.txt");
 		return inputDataBean;
 	}
 	private static UserEntity getUserData(){

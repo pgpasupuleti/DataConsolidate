@@ -19,6 +19,9 @@
 	
 	<context:property-placeholder location="classpath*:properties/dataconsolidate.properties" file-encoding="UTF-8" />
 	
+	<bean id="dcConfig" class="com.steve.dataconsolidate.common.DCConfig">
+	    <property name="inputDataDirPath" value="${dataconsolidate.inputdata.dirpath}"/>
+	</bean>
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory">
 			<ref bean="hibernateSessionFactory" />

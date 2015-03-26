@@ -1,6 +1,8 @@
 package com.steve.dataconsolidate.services;
 
 
+import java.io.File;
+
 import org.apache.log4j.Logger;
 import org.junit.AfterClass;
 import org.junit.Assert;
@@ -11,6 +13,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.steve.dataconsolidate.beans.InputDataBean;
+import com.steve.dataconsolidate.common.DCConfig;
 import com.steve.dataconsolidate.exceptions.DCException;
 
 /**
@@ -27,12 +30,16 @@ public class DataConsolidateServiceTest {
 	@Autowired
 	private DataConsolidateService dataConsolidateService;
 	
+	@Autowired
+	private DCConfig dcConfig;
+	
 	@Before
 	public void setUp(){
 		String[] path = {"classpath*:META-INF/spring/applicationContext-test.xml"};
-		ApplicationContext applicaitonContext = new ClassPathXmlApplicationContext(path);
-		genericEntityService = applicaitonContext.getBean(GenericEntityService.class);
-		dataConsolidateService = applicaitonContext.getBean(DataConsolidateService.class);
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(path);
+		genericEntityService = applicationContext.getBean(GenericEntityService.class);
+		dataConsolidateService = applicationContext.getBean(DataConsolidateService.class);
+		dcConfig = applicationContext.getBean(DCConfig.class);
 	}
 	
 	@AfterClass
@@ -62,7 +69,8 @@ public class DataConsolidateServiceTest {
 	//---------HELPERS----------------
 	private InputDataBean getInputDataBean(){
 		InputDataBean inputDataBean = new InputDataBean();
-		inputDataBean.setDataFilePath("/Users/paspr01/Praveen/projects/Steve/src/main/resources/dataFile.txt");
+		String inputDataDirPath = dcConfig.getInputDataDirPath();
+		inputDataBean.setDataFilePath(inputDataDirPath + File.separator + "dataFile.txt");
 		return inputDataBean;
 	}
 }
