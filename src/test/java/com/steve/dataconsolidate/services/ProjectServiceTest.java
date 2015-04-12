@@ -43,7 +43,7 @@ public class ProjectServiceTest {
 	}
 	
 	//-----------Test Case------------
-	//@Test
+	@Test
 	public void testProjectCreate(){
 		try {
 			genericEntityService.createEntity(getProject());
