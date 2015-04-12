@@ -14,12 +14,18 @@ public abstract class BaseBean {
 	 * @throws DCException
 	 */
 	public abstract Object toEntity() throws DCException;
-	
 
 	/**
 	 * @param object
 	 * @throws DCException
 	 */
 	public abstract void toBean(Object object) throws DCException;
+	
+	
+	/**
+	 * @return
+	 * @throws DCException
+	 */
+	public abstract Object toJson() throws DCException;
 	
 }

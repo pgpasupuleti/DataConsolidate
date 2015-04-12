@@ -1,6 +1,7 @@
 package com.steve.dataconsolidate.persist;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -8,7 +9,9 @@ import java.util.Map;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -103,7 +106,23 @@ public class GenericDaoImpl<T, PK> implements GenericDao {
 
 	@Override
 	public List find(Class type, String criteria) throws DCException {
-		return null;
+		EntityManager entityManager = getEMF().createEntityManager();
+		List items = new ArrayList();
+		if (entityManager != null) {
+			try{
+				StringBuilder queryBuilder = new StringBuilder("SELECT O FROM ");
+				queryBuilder.append(type.getName());
+				queryBuilder.append(" O ");
+				if(StringUtils.isNotEmpty(criteria)){
+					queryBuilder.append(" WHERE ").append(criteria);
+				}
+				Query query = entityManager.createQuery(queryBuilder.toString());
+				items = query.getResultList();
+			}  catch(Exception e){
+				throw new DCException(DCNoticeCodeBase.DB_FETCH_DATA_FAILED,e,e.getMessage());
+			}
+		}
+		return items;
 	}
 
 }

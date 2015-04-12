@@ -60,6 +60,7 @@ public class DataConsolidateServiceTest {
 			}
 			
 		}catch(DCException e){
+			e.printStackTrace();
 			Assert.assertFalse(true);
 		}
 	}

@@ -154,4 +154,13 @@ public class UserBean extends BaseBean {
 		this.personKey = userEntity.getPersonKey();
 		this.userId = userEntity.getUserId();
 	}
+
+	/* (non-Javadoc)
+	 * @see com.steve.dataconsolidate.beans.BaseBean#toJson()
+	 */
+	@Override
+	public Object toJson() throws DCException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

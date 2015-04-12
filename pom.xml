@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DataConsolidate</name>
 	<description>Data Consolidate </description>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<!-- Repositories -->
 	<repositories>
@@ -65,10 +65,15 @@
 		<commons-fileupload.version>1.2.2</commons-fileupload.version>
 		<commons-pool.version>1.6</commons-pool.version>
 		<spring.framework.version>3.1.1.RELEASE</spring.framework.version>
+		<springsecurity.version>3.1.3.RELEASE</springsecurity.version>	
 		<hibernate-entitymanager.version>3.5.6-Final</hibernate-entitymanager.version>
 		<hibernate-annotations.version>3.5.6-Final</hibernate-annotations.version>
 		<oracle.driver.version>11.2.0.3</oracle.driver.version>
-		<mysql-connector-java.version>5.1.19</mysql-connector-java.version>
+		<jackson.version>1.9.13</jackson.version>
+		<swagger.version>1.3.0</swagger.version>
+		<jettison.version>1.3.4</jettison.version>
+		<servlet-api.version>2.5</servlet-api.version>
+		<xbean.version>3.14</xbean.version>
 	</properties>
 	<!-- Dependencies -->
 	<dependencies>
@@ -121,7 +126,9 @@
 		</dependency>
 
 		<!-- Spring Dependencies -->
-		<dependency>
+		
+		
+		 <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${spring.framework.version}</version>
@@ -149,6 +156,11 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
+			<version>${spring.framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
 			<version>${spring.framework.version}</version>
 		</dependency>
 		<dependency>
@@ -190,10 +202,6 @@
             <version>3.6.8.Final</version>
         </dependency>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
 			<version>1.7.3</version>
@@ -202,14 +210,6 @@
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.7.3</version>
-		</dependency>
-		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-data-jpa</artifactId> 
-			<version>${spring.framework.version}</version> </dependency> -->
-		<!-- MySQl -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql-connector-java.version}</version>
 		</dependency>
 
 		<!-- Oracle -->
@@ -234,12 +234,107 @@
 			<artifactId>super-csv</artifactId>
 			<version>2.1.0</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>${servlet-api.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
 			<version>0.9.1.2</version>
 			<type>jar</type>
 			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<!-- <dependency> <groupId>com.sun.jersey</groupId> <artifactId>jersey-bundle</artifactId> 
+			<version>1.18</version> </dependency> -->
+
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.18</version>
+			<!-- <exclusions> <exclusion> <artifactId>asm</artifactId> <groupId>asm</groupId> 
+				</exclusion> </exclusions> -->
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-multipart</artifactId>
+			<version>1.18</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+			<version>1.18</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.18</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-core</artifactId>
+			<version>1.18</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-spring</artifactId>
+			<version>1.18</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>spring-core</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>spring-aop</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>spring-beans</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>spring-context</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.0</version>
+			<type>jar</type>
+			<!-- <scope>test</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jettison</groupId>
+			<artifactId>jettison</artifactId>
+			<version>${jettison.version}</version>
+		</dependency>
+		<!-- Swagger -->
+		<dependency>
+			<groupId>com.wordnik</groupId>
+			<artifactId>swagger-jaxrs_2.10</artifactId>
+			<version>${swagger.version}</version>
 		</dependency>
 	</dependencies>
 	<build>

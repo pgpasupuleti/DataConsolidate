@@ -130,4 +130,12 @@ public class UserCourseBean extends BaseBean {
 		this.userCourseId = userCourseEntity.getUserCourseId();
 		this.userId = userCourseEntity.getUserId();
 	}
+
+	/* (non-Javadoc)
+	 * @see com.steve.dataconsolidate.beans.BaseBean#toJson()
+	 */
+	@Override
+	public Object toJson() throws DCException {
+		return null;
+	}
 }

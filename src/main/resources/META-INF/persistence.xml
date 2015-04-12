@@ -11,6 +11,7 @@
 		<class>com.steve.dataconsolidate.entity.UserEntity</class>
 		<class>com.steve.dataconsolidate.entity.CourseEntity</class>
 		<class>com.steve.dataconsolidate.entity.UserCourseEntity</class>
+		<class>com.steve.dataconsolidate.entity.Project</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />

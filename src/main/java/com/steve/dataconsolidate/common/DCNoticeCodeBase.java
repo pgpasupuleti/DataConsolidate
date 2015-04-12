@@ -45,16 +45,29 @@ public class DCNoticeCodeBase {
 	public static final DCNoticeCodeBase DB_CONNECTION_FAILED = new DCNoticeCodeBase(
 			"DC11001", "Data base connection failed. Reason: {0}.");
 	
+	public static final DCNoticeCodeBase DB_FETCH_DATA_FAILED = new DCNoticeCodeBase(
+			"DC11002","Failed to get data. Reason: {1}");
+	
+	
 	//Input Date Read Failures
 	
 	public static final DCNoticeCodeBase INVALID_INPUT_FILE = new DCNoticeCodeBase(
-			"DC11002", "Invalid Input File. Reason: {0}.");
+			"DC11003", "Invalid Input File. Reason: {0}.");
 	
 	public static final DCNoticeCodeBase NO_RECORDS_FOUND_IN_FILE = new DCNoticeCodeBase(
-			"DC11003", "No records found in the input File.");
+			"DC11004", "No records found in the input File.");
 	
 	public static final DCNoticeCodeBase DATA_EXTRACTION_FAILED = new DCNoticeCodeBase(
-			"DC11004", "Data extraction failed. Reason: {0}");
+			"DC11005", "Data extraction failed. Reason: {0}");
+	
+	public static final DCNoticeCodeBase CREATE_PROJECT_FAILED = new DCNoticeCodeBase(
+			"DC11006","Failed to create Project. Reason: {0}");
+	
+	public static final DCNoticeCodeBase GET_PROJECT_FAILED = new DCNoticeCodeBase(
+			"DC11007","Failed to Get Project Details for Project Name {0}. Reason: {1}");
+	
+	
+	
 	
 	//------------- Getters ------------
 	

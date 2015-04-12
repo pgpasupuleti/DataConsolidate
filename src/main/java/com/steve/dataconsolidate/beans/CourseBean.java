@@ -99,4 +99,13 @@ public class CourseBean extends BaseBean {
 		this.creationDate = courseEntity.getCreationDate();
 		this.lastModifiedDate = courseEntity.getLastUpdateDate();
 	}
+
+	/* (non-Javadoc)
+	 * @see com.steve.dataconsolidate.beans.BaseBean#toJson()
+	 */
+	@Override
+	public Object toJson() throws DCException {
+		return null;
+	}
+	
 }
